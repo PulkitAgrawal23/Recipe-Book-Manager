@@ -31,10 +31,6 @@ npm install
 ### 3️⃣ Get API Key (Spoonacular)
 1. Go to [Spoonacular](https://spoonacular.com/food-api)
 2. Sign up and get an API key
-3. Create a **.env** file in the project root and add:
-   ```sh
-   REACT_APP_SPOONACULAR_API_KEY=your_api_key_here
-   ```
 
 ### 4️⃣ Run the Project
 ```sh
