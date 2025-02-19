@@ -47,7 +47,6 @@ The app will be live at **http://localhost:3000**.
  ┃ ┣ 📜 RecipeForm.js       # Form to add new recipes
  ┃ ┣ 📜 RecipeManager.js    # Main component handling logic
  ┃ ┣ 📜 SearchBar.js        # Search & category filter
- ┃ ┗ 📜 api.js             # Handles API requests
  ┣ 📜 App.js               # Entry point
  ┣ 📜 index.js             # Renders App component
 ┗ 📜 styles.css            # Basic styling
