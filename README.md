@@ -19,8 +19,8 @@ A web application to **add, search, and manage recipes**. Users can add new reci
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/recipe-manager.git
-cd recipe-manager
+git clone https://github.com/your-username/Recipe-Book-Manager.git
+cd Recipe-Book-Manager
 ```
 
 ### 2️⃣ Install Dependencies
