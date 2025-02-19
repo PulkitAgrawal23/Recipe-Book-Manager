@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const API_KEY = "cbaf661999434ed49524537de14dad33"; // Replace with your actual API key
+const API_KEY = "YOUR_API_KEY"; // Replace with your actual API key
 
 const SearchBar = ({ searchTerm, setSearchTerm, selectedCategory, setSelectedCategory, onSearchResults }) => {
   const [loading, setLoading] = useState(false);
