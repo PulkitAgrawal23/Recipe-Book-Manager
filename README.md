@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Recipe Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application to **add, search, and manage recipes**. Users can add new recipes, mark favorites, and fetch recipes from the **Spoonacular API**.
 
-## Available Scripts
+## 🚀 Features
+- Add and manage custom recipes
+- Search recipes by name and category
+- Fetch recipes from **Spoonacular API**
+- Save favorite recipes
+- Uses **localStorage** for data persistence
 
-In the project directory, you can run:
+## 🛠️ Tech Stack
+- **Frontend:** React.js
+- **API:** Spoonacular API
+- **State Management:** React Hooks (useState, useEffect)
+- **Storage:** LocalStorage
 
-### `npm start`
+## 🎯 Installation & Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/your-username/recipe-manager.git
+cd recipe-manager
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2️⃣ Install Dependencies
+```sh
+npm install
+```
 
-### `npm test`
+### 3️⃣ Get API Key (Spoonacular)
+1. Go to [Spoonacular](https://spoonacular.com/food-api)
+2. Sign up and get an API key
+3. Create a **.env** file in the project root and add:
+   ```sh
+   REACT_APP_SPOONACULAR_API_KEY=your_api_key_here
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 4️⃣ Run the Project
+```sh
+npm start
+```
 
-### `npm run build`
+The app will be live at **http://localhost:3000**.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🏗️ Project Structure
+```
+📂 src
+ ┣ 📂 components
+ ┃ ┣ 📜 RecipeCard.js       # Displays individual recipes
+ ┃ ┣ 📜 RecipeForm.js       # Form to add new recipes
+ ┃ ┣ 📜 RecipeManager.js    # Main component handling logic
+ ┃ ┣ 📜 SearchBar.js        # Search & category filter
+ ┃ ┗ 📜 api.js             # Handles API requests
+ ┣ 📜 App.js               # Entry point
+ ┣ 📜 index.js             # Renders App component
+┗ 📜 styles.css            # Basic styling
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
