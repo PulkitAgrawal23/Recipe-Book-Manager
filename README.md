@@ -1,4 +1,4 @@
-# Recipe Manager
+# Recipe Book Manager
 
 A web application to **add, search, and manage recipes**. Users can add new recipes, mark favorites, and fetch recipes from the **Spoonacular API**.
 
